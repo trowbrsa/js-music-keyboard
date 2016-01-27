@@ -6,13 +6,28 @@ $(document).ready(function() {
     $("#audio_embeds #cAudio").get(0).play();
   });
 
-  $(".instrument .note.d").click(function () {
-    $("#audio_embeds #dAudio").get(0).currentTime=0;
-    $("#audio_embeds #dAudio").get(0).play();
+  $(".d").click(function () {
+    $("#dAudio").get(0).currentTime=0;
+    $("#dAudio").get(0).play();
   });
 
-  $(".instrument .note.e").click(function () {
-    $("#audio_embeds #eAudio").get(0).play();
+  $(".e").click(function () {
+    $("#eAudio").get(0).play();
   });
 
+  $(".f").click(function () {
+    $("#fAudio").get(0).play();
+  });
+
+  $(".g").click(function () {
+    $("#gAudio").get(0).play();
+  });
+
+  $(".a").click(function () {
+    $("#aAudio").get(0).play();
+  });
+
+  $(".b").click(function () {
+    $("#bAudio").get(0).play();
+  });
 });
